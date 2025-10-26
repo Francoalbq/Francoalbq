@@ -2,8 +2,8 @@
 
 ## 👋 Sobre mí
 
-¡Hola! Soy **Franco Alburquerque**, un apasionado desarrollador especializado en **bases de datos** y **aplicaciones backend**.  
-Me motiva entender a fondo cómo funcionan las cosas, optimizar código y diseñar soluciones seguras y eficientes.
+¡Hola! Soy **Franco Alburquerque**, un motivado desarrollador especializado en **bases de datos** y **aplicaciones backend**.  
+Me motiva entender a fondo cómo funcionan los sistemas, optimizar código y diseñar soluciones seguras y eficientes.
 
 ### 💼 Objetivo Profesional
 Busco una oportunidad en el área del desarrollo o seguridad informática donde pueda:
