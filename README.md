@@ -2,28 +2,51 @@
 
 ## 👋 Sobre mí
 
-¡Hola! Soy Franco Alburquerque, un apasionado de la programación con especial interés en el mundo de las bases de datos.
+¡Hola! Soy **Franco Alburquerque**, un apasionado desarrollador especializado en **bases de datos** y **aplicaciones backend**.  
+Me motiva entender a fondo cómo funcionan las cosas, optimizar código y diseñar soluciones seguras y eficientes.
 
 ### 💼 Objetivo Profesional
-Busco una oportunidad laboral que me permita desarrollarme profesionalmente, aportar valor y seguir creciendo en el ámbito tecnológico.
-
-### 🧠 Fortalezas
-- 🗃️ **Bases de datos**: Es mi especialidad y donde me siento más cómodo trabajando.
-- 🎧 **Escucha activa**: Me destaco por comprender el código a fondo, tomándome el tiempo necesario para analizarlo con lógica.
-- 🧩 **Resolución de problemas**: Me gusta enfrentar desafíos técnicos y encontrar soluciones eficientes.
-
-### 🌐 Conectemos
-📎 [LinkedIn](https://www.linkedin.com/in/franco-alburquerque-0a00b2311)
+Busco una oportunidad en el área del desarrollo o seguridad informática donde pueda:
+- Aportar mis conocimientos técnicos en **C#**, **Python** y **SQL Server**.  
+- Participar en proyectos reales con enfoque en **automatización**, **seguridad de datos** y **mejores prácticas de programación**.
 
 ---
 
+## 🧠 Fortalezas
+- 🗃️ **Bases de datos**: Diseño, normalización, procedimientos almacenados y conexión con aplicaciones.  
+- 🔒 **Seguridad**: Implementación de hash de contraseñas y validación segura de usuarios.  
+- ⚙️ **Lógica y depuración**: Me gusta analizar el código paso a paso y resolver errores de manera estructurada.  
+- 🧩 **Resolución de problemas**: Foco en optimizar procesos y aplicar buenas prácticas en backend.  
 
+---
 
+## 🚀 Proyecto Destacado: Sistema de Registro y Login con ASP.NET Core + SQL Server
 
+📌 **Tecnologías utilizadas**  
+- ASP.NET Core MVC  
+- C#  
+- SQL Server (procedimientos almacenados)  
+- Bootstrap  
+- HTML y CSS  
 
-<br><br>
+📂 **Estructura del proyecto**
+- **Login y Registro:** `Login.cshtml` y `Registrar.cshtml`  
+- **Conexión a base de datos:** `UsuarioDatos.cs`  
+- **Seguridad:** Método `Hash` para proteger contraseñas antes de guardarlas en la base de datos  
+- **Procedimientos almacenados:**  
+  - `sp_RegistrarUsuario` → Inserta un nuevo usuario con contraseña encriptada.  
+  - `sp_ValidarUsuario` → Verifica credenciales de inicio de sesión.  
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"><br><br>
+🧩 **Principales características**
+- Validación de usuarios mediante procedimientos almacenados en **SQL Server**.  
+- Encriptación segura de contraseñas con **Hash**.  
+- Separación lógica en capas (controlador, modelo y vista).  
+- Interfaz limpia y responsive con **Bootstrap**.  
+
+🔧 **Objetivo del proyecto**
+Aprender e implementar un sistema de autenticación real con prácticas profesionales de seguridad y arquitectura.  
+
+---
 
 ## <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width ="25"><b> Habilidades</b>
 <br>
@@ -47,7 +70,7 @@ Busco una oportunidad laboral que me permita desarrollarme profesionalmente, apo
 - **Alojamiento en la Nube**:
 
     <img src="https://img.shields.io/badge/GitHub%20Pages-%23327FC7.svg?style=for-the-badge&logo=github&logoColor=white"/>
-    <img src="https://img.shields.io/badge/Microsoft%20Azure-0078D4.svg?style=for-the-badge&logo=microsoft-azure&logoColor=white"/>
+    <img src="https://img.shields.io/badge/Amazon%20AWS-232F3E.svg?style=for-the-badge&logo=amazon-aws&logoColor=white"/>
 
 <br>
 
@@ -61,6 +84,8 @@ Busco una oportunidad laboral que me permita desarrollarme profesionalmente, apo
 
 </p>
 
+---
+
 ## 🗃️ Bases de Datos
 
 <p align="center">
@@ -70,26 +95,22 @@ Busco una oportunidad laboral que me permita desarrollarme profesionalmente, apo
 
 </p>
 
+---
 
-<br>
-<br>
+## 🌐 Conectemos
 
------
+📎 [LinkedIn](https://www.linkedin.com/in/franco-alburquerque-0a00b2311)
 
-<br>
-<br>
+📁 [GitHub](https://github.com/Francoalbq)
+
+---
 
 <div align='center'>
 
 ## <b>¡Gracias por visitar mi perfil! 🚀</b>
 
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+
 </div>
 
-<br>
-<br>
-<br>
 
-
----
-
-<br>
