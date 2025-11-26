@@ -22,7 +22,7 @@ Lo disfruto como un pasatiempo y le pongo muchas ganas para poder ser un profesi
 
 ---
 
-## 🚀 Proyecto Destacado: Sistema de Registro y Login con ASP.NET Core + SQL Server
+## 🚀 Proyecto Destacado: User Entry Points con ASP.NET Core + SQL Server
 
 📌 **Tecnologías utilizadas**  
 - ASP.NET Core MVC  
