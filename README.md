@@ -103,8 +103,6 @@ Aprender e implementar un sistema de autenticación real con prácticas profesio
 
 📎 [LinkedIn](https://www.linkedin.com/in/franco-alburquerque-0a00b2311)
 
-📁 [GitHub](https://github.com/Francoalbq)
-
 ---
 
 <div align='center'>
