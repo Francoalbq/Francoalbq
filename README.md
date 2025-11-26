@@ -2,12 +2,14 @@
 
 ## 👋 Sobre mí
 
-¡Hola! Soy **Franco Alburquerque**, un motivado desarrollador especializado en **bases de datos** y **aplicaciones backend**.  
-Me motiva entender a fondo cómo funcionan los sistemas, optimizar código y diseñar soluciones seguras y eficientes.
+Hola a todos. Mi nombre es Franco Alburquerque, tengo 20 años. Me apasiona la programación. Entré en este mundo hace 5 años con pequeños proyectos en HTML y CSS.
+Luego fui evolucionando y mejorando mi lógica principalmente. 
+Aprendí lenguajes como Python, SQL y C#, los cuales utilizo en conjunto para crear, diseñar y gestionar aplicaciones tanto para webs como para escritorios.
+
+Lo disfruto como un pasatiempo y le pongo muchas ganas para poder ser un profesional e ingresar en una empresa que me abra oportunidades para seguir creciendo. Me destaco por mi comunicación, mi disciplina, mi manejo de errores y mi uso de la inteligencia artificial.
 
 ### 💼 Objetivo Profesional
-Busco una oportunidad en el área del desarrollo o seguridad informática donde pueda:
-- Aportar mis conocimientos técnicos en **C#**, **Python** y **SQL Server**.  
+- Aportar mis conocimientos técnicos en **C#**, **Python** y **SQL**.  
 - Participar en proyectos reales con enfoque en **automatización**, **seguridad de datos** y **mejores prácticas de programación**.
 
 ---
@@ -15,7 +17,7 @@ Busco una oportunidad en el área del desarrollo o seguridad informática donde 
 ## 🧠 Fortalezas
 - 🗃️ **Bases de datos**: Diseño, normalización, procedimientos almacenados y conexión con aplicaciones.  
 - 🔒 **Seguridad**: Implementación de hash de contraseñas y validación segura de usuarios.  
-- ⚙️ **Lógica y depuración**: Me gusta analizar el código paso a paso y resolver errores de manera estructurada.  
+- ⚙️ **Lógica y depuración**: Analizo el código paso a paso y resolver errores de manera estructurada.  
 - 🧩 **Resolución de problemas**: Foco en optimizar procesos y aplicar buenas prácticas en backend.  
 
 ---
