@@ -22,28 +22,38 @@ Lo disfruto como un pasatiempo y le pongo muchas ganas para poder ser un profesi
 
 ---
 
-## 🚀 Proyecto Destacado: User Entry Points con ASP.NET Core + SQL Server
+🚀 Proyecto Destacado: Plataforma E-commerce (Arquitectura y Patrones Modernos)
+📌 Tecnologías utilizadas
 
-📌 **Tecnologías utilizadas**  
-- ASP.NET Core MVC  
-- C#  
-- SQL Server (procedimientos almacenados)  
-- Bootstrap  
-- HTML y CSS  
+Backend & Core: ASP.NET Core MVC, C#, Entity Framework Core
 
-📂 **Estructura del proyecto**
-- **Login y Registro:** `Login.cshtml` y `Registrar.cshtml`  
-- **Conexión a base de datos:** `UsuarioDatos.cs`  
-- **Seguridad:** Método `Hash` para proteger contraseñas antes de guardarlas en la base de datos  
-- **Procedimientos almacenados:**  
-  - `sp_RegistrarUsuario` → Inserta un nuevo usuario con contraseña encriptada.  
-  - `sp_ValidarUsuario` → Verifica credenciales de inicio de sesión.  
+Base de Datos: SQL Server
 
-🧩 **Principales características**
-- Validación de usuarios mediante procedimientos almacenados en **SQL Server**.  
-- Encriptación segura de contraseñas con **Hash**.  
-- Separación lógica en capas (controlador, modelo y vista).  
-- Interfaz limpia y responsive con **Bootstrap**.  
+Integración: Stripe Checkout API
+
+Frontend: Bootstrap, HTML, CSS, JavaScript
+
+📂 Estructura Arquitectónica
+
+Patrones Implementados: Repository, Unit of Work (UoW), Inversión de Control (IoC).
+
+Acceso a Datos: Capa de Repositorio Genérico con soporte para Carga Anticipada (Eager Loading), optimizando consultas a SQL Server.
+
+Seguridad y Auth: ASP.NET Core Identity para autenticación y autorización basada en roles (Admin).
+
+Flujo de Pedidos: CartController.cs maneja la creación atómica de OrderHeader y OrderDetail.
+
+🧩 Principales Características y Logros
+
+Consistencia Transaccional: Implementación del patrón UoW para garantizar la atomicidad en la creación de pedidos de múltiples artículos.
+
+Integración de Pagos: Conexión completa con la API de Stripe Checkout, gestionando la generación de sesiones de pago y la validación final del estado (OrderConfirmation).
+
+Optimización de Consultas: Desarrollo de métodos de consulta reutilizables que permiten la inclusión dinámica de propiedades de navegación, minimizando N+1 problems.
+
+Gestión de Archivos: Lógica robusta para la gestión del ciclo de vida de las imágenes de productos (subida, eliminación y reemplazo) utilizando IWebHostEnvironment.
+
+Experiencia de Usuario: Uso del patrón Post-Redirect-Get (PRG) y librerías frontend (Toaster JS) para proporcionar feedback de usuario profesional tras las operaciones CRUD.  
 
 🔧 **Objetivo del proyecto**
 Aprender e implementar un sistema de autenticación real con prácticas profesionales de seguridad y arquitectura.  
