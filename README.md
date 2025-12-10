@@ -22,40 +22,30 @@ Lo disfruto como un pasatiempo y le pongo muchas ganas para poder ser un profesi
 
 ---
 
-🚀 Proyecto Destacado: Plataforma E-commerce (Arquitectura y Patrones Modernos)
+## 🚀 Proyecto Destacado: Plataforma E-commerce (Arquitectura y Patrones Modernos)
 📌 Tecnologías utilizadas
 
-Backend & Core: ASP.NET Core MVC, C#, Entity Framework Core
+- **Backend & Core**: ASP.NET Core MVC, C#, Entity Framework Core
+- **Base de Datos**: SQL Server
+- **Integración**: Stripe Checkout API
+- **Frontend**: Bootstrap, HTML, CSS, JavaScript
 
-Base de Datos: SQL Server
+## 📂 Estructura Arquitectónica
 
-Integración: Stripe Checkout API
+- **Patrones Implementados**: Repository, Unit of Work (UoW), Inversión de Control (IoC).
+- **Acceso a Datos**: Capa de Repositorio Genérico con soporte para Carga Anticipada (Eager Loading), optimizando consultas a SQL Server.
+- **Seguridad y Auth**: ASP.NET Core Identity para autenticación y autorización basada en roles (Admin).
+- **Flujo de Pedidos**: CartController.cs maneja la creación atómica de OrderHeader y OrderDetail.
 
-Frontend: Bootstrap, HTML, CSS, JavaScript
+## 🧩 Principales Características y Logros
 
-📂 Estructura Arquitectónica
+- **Consistencia Transaccional**: Implementación del patrón UoW para garantizar la atomicidad en la creación de pedidos de múltiples artículos.
+- **Integración de Pagos**: Conexión completa con la API de Stripe Checkout, gestionando la generación de sesiones de pago y la validación final del estado (OrderConfirmation).
+- **Optimización de Consultas**: Desarrollo de métodos de consulta reutilizables que permiten la inclusión dinámica de propiedades de navegación, minimizando N+1 problems.
+- **Gestión de Archivos**: Lógica robusta para la gestión del ciclo de vida de las imágenes de productos (subida, eliminación y reemplazo) utilizando IWebHostEnvironment.
+- **Experiencia de Usuario**: Uso del patrón Post-Redirect-Get (PRG) y librerías frontend (Toaster JS) para proporcionar feedback de usuario profesional tras las operaciones CRUD.  
 
-Patrones Implementados: Repository, Unit of Work (UoW), Inversión de Control (IoC).
-
-Acceso a Datos: Capa de Repositorio Genérico con soporte para Carga Anticipada (Eager Loading), optimizando consultas a SQL Server.
-
-Seguridad y Auth: ASP.NET Core Identity para autenticación y autorización basada en roles (Admin).
-
-Flujo de Pedidos: CartController.cs maneja la creación atómica de OrderHeader y OrderDetail.
-
-🧩 Principales Características y Logros
-
-Consistencia Transaccional: Implementación del patrón UoW para garantizar la atomicidad en la creación de pedidos de múltiples artículos.
-
-Integración de Pagos: Conexión completa con la API de Stripe Checkout, gestionando la generación de sesiones de pago y la validación final del estado (OrderConfirmation).
-
-Optimización de Consultas: Desarrollo de métodos de consulta reutilizables que permiten la inclusión dinámica de propiedades de navegación, minimizando N+1 problems.
-
-Gestión de Archivos: Lógica robusta para la gestión del ciclo de vida de las imágenes de productos (subida, eliminación y reemplazo) utilizando IWebHostEnvironment.
-
-Experiencia de Usuario: Uso del patrón Post-Redirect-Get (PRG) y librerías frontend (Toaster JS) para proporcionar feedback de usuario profesional tras las operaciones CRUD.  
-
-🔧 **Objetivo del proyecto**
+## 🔧 **Objetivo del proyecto**
 Aprender e implementar un sistema de autenticación real con prácticas profesionales de seguridad y arquitectura.  
 
 ---
